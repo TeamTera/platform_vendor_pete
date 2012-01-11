@@ -1,15 +1,13 @@
-Peter Alfonso
+Justin Ellenbecker (StrifeJester)
 ===========
 
-Visit http://peteralfonso.com 
+Visit http://www.strifejester.com 
 
-Follow http://twitter.com/peteralfonso 
+Follow http://twitter.com/strifejester
 
-Like http://facebook.com/peteralfonsojr
+Like http://facebook.com/strifejester
 
-Link http://linkedin.com/in/peteralfonso
-
-Circle http://profiles.google.com/peteralfonsojr
+Circle http://profiles.google.com/strifejester
 
 
 Getting Started
@@ -19,10 +17,12 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u git://github.com/peteralfonso/platform_manifest.git -b ics
+    repo init -u git://github.com/strifejester/platform_manifest-p.git -b ics
 
 Then to sync up:
 
     repo sync
 
-
+I want to add a huge shout out to Pete Alfonso. I built AOSP a few times and Pete's builds were so clean and did 
+a lot of the legwork I decided to fork them instead of re-inventing the wheel. I am hoping to build on what he has started.
+You can tell the repos with a -p at the end are all from Pete thanks again for all of the work you have done.
