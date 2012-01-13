@@ -57,7 +57,8 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
     vendor/pete/proprietary/common/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
     vendor/pete/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
-    vendor/pete/proprietary/common/xbin/su:system/xbin/su
+    vendor/pete/proprietary/common/xbin/su:system/xbin/su \
+    vendor/pete/proprietary/common/app/com.koushikdutta.tether-1.apk:system/app/com.koushikdutta.tether-1.apk
 
 ifeq ($(TARGET_BUILD_VARIANT),user)
 # Blobs common to all devices except emulator
